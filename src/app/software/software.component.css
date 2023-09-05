@@ -88,10 +88,16 @@ h1 {
     width: 494px;
     height: 410px;
     padding: 60px;
-    margin-top: 40px;
     border-radius: 70px;
 }
 
+.side { 
+    margin-top: 7px;
+}
+
+.side4 {
+    margin-top: 6px;
+}
 
 .text2 { 
     color: #FFF;
@@ -133,6 +139,72 @@ h1 {
     margin-left: 1167px;
     z-index: -1;
 }
+
+.serve {  
+        color: #ee9d11;
+        font-family: Urbanist;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+    }
+
+    .indu {
+        color: #FFF;
+    font-family: Urbanist;
+    font-style: normal;
+    line-height: normal;
+    display: inline-flex;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 200;
+    font-size: 24px;
+    }
+
+    .card { 
+        height: 230px;
+    }
+
+    .icons1 { 
+        width : 40px;
+        height :40px;
+       
+    margin-right: 13px;
+
+    }
+
+    .title { 
+        color: #ee9d11;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+    
+
+    .para {
+        color: black;
+    font-family: Urbanist;
+    font-style: normal;
+    display: inline-flex;
+    padding: 0px 15px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 16px;
+    }
+
 
 @media only screen and (max-width: 992px) and (min-width:776px) {
     .hello { 
@@ -220,12 +292,12 @@ h1 {
 }
 
 .head1 { 
-    margin-left: -138px;
+    margin-left: -75px;
     width: 300px;
+    margin-top: -12px;
 }
 
 .cont,.cont1 {
-    width: 392px;
     color: #FFF;
     font-family: Urbanist;
     font-size: 20px;
@@ -236,11 +308,12 @@ h1 {
 
 .cont { 
     margin-left: -20px;
+    width: 358px;
 }
 
 .cont1 {
-    margin-left: -144px;
-    width: 230%;
+    margin-left: -71px;
+    width: 309px;
     text-align: start;
 }
 
@@ -252,8 +325,9 @@ h1 {
 .side { 
     width: 495px;
     height: 410px;
-    margin-top: -32px;
+    margin-top: -59px;
     padding: 65px;
+    margin-left: -60px;
     border-radius: 93px;
 }
 
@@ -265,6 +339,73 @@ h1 {
     margin-left: -90px;
     border-radius: 93px;
      
+}
+
+.serve {  
+    color: #ee9d11;
+    font-family: Urbanist;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.indu {
+    color: #FFF;
+font-family: Urbanist;
+font-style: normal;
+line-height: normal;
+display: inline-flex;
+padding: 10px 20px;
+text-align: center;
+justify-content: center;
+align-items: center;
+gap: 10px;
+font-weight: 200;
+font-size: 22px;
+}
+
+.card { 
+    height: 230px;
+}
+
+.icons1 { 
+    width: 57px;
+    height: 41px;
+    margin-right: 13px;
+}
+
+.title { 
+    color: #ee9d11;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.para {
+    color: black;
+    font-family: Urbanist;
+    font-style: normal;
+    display: inline-flex;
+    padding: 0px 15px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    line-height: 22px;
+    font-weight: 300;
+    width: 222px;
+    margin-left: -15px;
+    font-size: 14px;
 }
 
 }
@@ -491,6 +632,8 @@ h1 {
             align-items: center;
         }
 
+
+       
 }
 
 @media screen and (min-width:431px) and (max-width:775px) {
@@ -511,6 +654,7 @@ h1 {
             position: absolute;
       
         }
+    
         .r1,.r2,.r3,.r4,.r5,.r6 { 
             height: 8px;
             background:  linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
@@ -554,7 +698,7 @@ h1 {
             position: absolute;
             flex-shrink: 0; 
             top: 3%;
-            margin-left: 120px;
+            margin-left: 327px;
         }
         
         h1 {
@@ -580,10 +724,14 @@ h1 {
             line-height: normal;
             display: flex;
             justify-content: center;
+            margin-left:  235px;
+            text-align: center;
+            width: 25px;
+
         }
 
         .head1 { 
-            margin-left: -15px;
+            margin-left:50px;
             width: 294px;
             justify-content: center;
             display: flex;
@@ -603,17 +751,18 @@ h1 {
             display: flex;
             justify-content: center;
             text-align: justify;
+            margin-left: 50px;
         }
 
-        .cont { 
-            margin-left: 44px;
-            width: 272px;
+        .cont {    
+             margin-left: 79px;
+            width: 328px;
         }
         
 
         .cont1  { 
             
-            width: 250px;
+            width: 280px;
         }
 
 
@@ -623,6 +772,7 @@ h1 {
         
         .side1 { 
             margin-top: 115px;
+            
         }
 
 
@@ -630,7 +780,8 @@ h1 {
             width: 400px;
             height: 400px;
             border-radius: 75px;
-            padding: 59px
+            padding: 59px;
+            margin-left: -19px;
         }
         
         
@@ -683,5 +834,6 @@ h1 {
             justify-content: center;
             align-items: center;
         }
-    
+
+       
 }
