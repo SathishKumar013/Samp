@@ -440,7 +440,7 @@ font-size: 22px;
 
 
 
-@media screen and (max-width: 430px) and (min-width:375px) {
+@media only screen and (max-width: 500px) {
       
     .hello { 
         overflow-x: hidden;
@@ -518,56 +518,44 @@ font-size: 22px;
         .about {
             padding: 0px;
         }
+
+        .he { 
+            display: flex;
+            text-align: center;
+            justify-content: center;
+
+        }
         
         .head,.head1 { 
             color: #ee9d11;
             font-family: Urbanist;
-            font-size: 27px;
+            font-size: 23px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            display: flex;
-            justify-content: center;
+           
         }
 
-        .head { 
-            text-align: center;
-            margin-top: 79px;
-        }
-
-        .head1 { 
-            margin-left: -1.5rem;
-            width: 294px;
-            text-align: center;
-            justify-content: center;
-            display: flex;
+        .par { 
+          text-align: center; 
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
         
         
         .cont,.cont1 {
            
-            height: 195px;
+            height: 250px;
+            color: #FFF;
             color: #FFF;
             font-family: Urbanist;
             font-size: 17px;
             font-style: normal;
             font-weight: 500;
-            line-height: 24px;
-            width: 269px;
-            display: flex;
-            justify-content: center;
-            text-align: justify;
-        }
-
-        .cont { 
-            margin-left: 44px;
-            width: 290px;
-        }
-        
-
-        .cont1  { 
-            
-            width: 250px;
+             line-height: 24px;
+             width: 312px;
+             text-align: justify;
         }
 
 
@@ -582,10 +570,10 @@ font-size: 22px;
 
         .side { 
             width: 400px;
-            margin-top: -37px;
+            margin-top: -53px;
             height: 400px;
             border-radius: 114px;
-            padding: 89px;
+            padding: 93px;
         }
         
         
@@ -643,7 +631,7 @@ font-size: 22px;
        
 }
 
-@media screen and (min-width:431px) and (max-width:775px) {
+@media screen and (min-width:501px) and (max-width:775px) {
     .hello { 
         overflow-x: hidden;
         width: 100%;
